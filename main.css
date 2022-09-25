@@ -1,0 +1,18 @@
+body{ background-color: #E8F1F1;
+
+    color:  #004D51 ;
+
+    justify-content: center;
+    }
+
+/*ID*/
+
+  #titulo1 {color:#9BC448;}
+  #tamañofuente { font-size: medium;}
+  #mapacentrado { justify-content: center;}
+
+
+  /*CLASS*/
+
+  .subrayado{text-decoration: underline;}
+  .tamañoimagen {width: 50vw;height:50vw;}
