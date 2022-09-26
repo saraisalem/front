@@ -15,4 +15,8 @@ body{ background-color: #E8F1F1;
   /*CLASS*/
 
   .subrayado{text-decoration: underline;}
-  .tamañoimagen {width: 50vw;height:50vw;}
+  .tamañoimagen { width: 50%;
+  margin: 0 auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;}
