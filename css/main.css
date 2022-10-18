@@ -6,23 +6,32 @@ box-sizing: border-box;}
 .wp{position: fixed;
 bottom:50px;
 right: 50px;
-height: 40px;}
+height: 40px;
+}
 
 body{ background-color: #E8F1F1;
     }
 
 
 header {background-color: white;
-background-image: url(../imagenes/logoMarcaTucuman.svg);
 background-repeat: no-repeat;
 background-position: left top;
 height: 15vh;
 color: #9BC448;
 display: flex;
 align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.logotuc{display: flex;
+justify-content: flex-start;
+height: 60%}
+.tituloprincipal{display: flex;
 justify-content: center;}
-
-
+.redesheader{
+  display: flex;
+  justify-content: flex-end;
+}
 
 .nav-header{display: flex;
 justify-content: space-evenly;
@@ -68,15 +77,26 @@ gap:16px;}
 }
 
 footer{display: flex;
-height: 10vh;
+height: 100%;
 background-color: black;
-color:white;}
-.piedepagina{display: flex;
-  width: 40%;
+color:white;
+justify-content:space-around;
 align-items: center;
-justify-content: left;}
+flex-wrap: wrap;
+}
+
+.mapapie{width: 40%;
+  
+
+}
+
+.piedepagina{
+  width: 40%;
+
+}
 .redes{width: 40%;
   display: flex;
 justify-content: space-around;
 align-items: center;}
+
 .ico{width: 40px;}
