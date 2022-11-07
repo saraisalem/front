@@ -10,7 +10,16 @@ height: 40px;
 }
 
 body{ background-color: #E8F1F1;
-    }
+  }
+
+@font-face {
+  font-family: "fuenteprueba";
+  src: url("../fonts/RobotoSlab.ttf")
+  format ("truetype");
+  }
+
+body { font-family: "fuenteprueba";}
+
 
 
 header {background-color: white;
@@ -38,12 +47,14 @@ justify-content: space-evenly;
 height: 5vh;
 background-color: bisque;
 align-items: center;
+font-size: 1.2em;
 }
 .nav-header>a{color: black;
 text-decoration: none;}
 
 main{
   min-height: 70vh;
+
 }
 .intro{display: flex;
 flex-direction: column;
@@ -86,7 +97,7 @@ flex-wrap: wrap;
 }
 
 .mapapie{width: 40%;
-  
+
 
 }
 
