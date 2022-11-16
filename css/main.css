@@ -9,6 +9,18 @@ right: 50px;
 height: 40px;
 }
 
+@media all and (max-width :500px) {
+  body {color: blue;}
+}
+
+@media (max-width:575px) {
+  .imagencentrada { display: none;}
+}
+
+@media (min-width:575px) {
+  .humitas { display: none;}
+}
+
 body{ background-color: #E8F1F1;
   }
 
@@ -36,7 +48,8 @@ flex-wrap: wrap;
 justify-content: flex-start;
 height: 60%}
 .tituloprincipal{display: flex;
-justify-content: center;}
+justify-content: center;
+font-family: "fuenteprueba";}
 .redesheader{
   display: flex;
   justify-content: flex-end;
