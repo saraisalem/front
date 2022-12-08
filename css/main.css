@@ -100,6 +100,14 @@ gap:16px;}
   gap:30px;
 }
 
+.otrasrecetas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap:30px;
+}
+
 footer{display: flex;
 height: 100%;
 background-color: black;
